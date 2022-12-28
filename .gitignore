@@ -1,0 +1,5 @@
+.terraform
+.terraform.lock.hcl
+doc.txt
+keys/
+nodeapp/
