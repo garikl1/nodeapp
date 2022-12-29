@@ -4,7 +4,7 @@
     "memory": 256,
     "name": "nodeapp",
     "cpu": 256,
-    "image": "${REPOSITORY_URL}:1",
+    "image": "${REPOSITORY_URL}:${APP_VERSION}",
     "workingDirectory": "/app",
     "command": ["npm", "start"],
     "portMappings": [
